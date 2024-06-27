@@ -18,15 +18,11 @@ This project is a simple React application secured with Keycloak. It includes a 
 ### Keycloak Configuration
 
 1. Set up a Keycloak server and create a new realm `keycloak-react-auth`.
-2. Create a new client in the realm:
-   - Client ID: `react-auth`
-   - Client Protocol: `openid-connect`
-   - Access Type: `public`
-   - Valid Redirect URIs: `http://localhost:5173/*`
-   - Web origins: `http://localhost:5173`
+2. Create a new client in the realm
 3. Create roles:
    - `admin`
 4. Create users and assign roles as needed.
+5. Adjust keycloak.js and keycloak.json accordingly
 
 ### Installation
 
