@@ -1,6 +1,6 @@
-# Keycloak React App
+# Jagna Juras - Keycloak React App + Nodejs API
 
-This project is a simple React application secured with Keycloak. It includes a homepage, a secured page, and an admin panel that is accessible only to users with the "admin" role.
+This project is a simple React application secured with Keycloak. It includes a homepage, a secured page, and an admin panel that is accessible only to users with the "admin" role. It also has a separate API, working similarly (public page, protected page returning different messages depending on the user's role).
 
 ## Features
 
