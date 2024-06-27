@@ -37,7 +37,7 @@ This project is a simple React application secured with Keycloak. It includes a 
    cd vite-project
    npm install
     ```
-2. Run the Frontend part:
+2. Run the frontend part:
     ```bash
    npm run dev
     ```
@@ -46,3 +46,5 @@ This project is a simple React application secured with Keycloak. It includes a 
    cd api
    node server.js
     ```
+
+The frontend and API are NOT connected to each other.
